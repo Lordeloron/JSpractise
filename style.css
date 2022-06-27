@@ -143,6 +143,38 @@ margin-right: 20px;
     color: rgb(103, 187, 141);
 }
 
+/* .contact-links li, ul{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0
+} */
+.contact-links li:hover{
+    background-color: hsl(55, 45%, 83%);
+    box-shadow: 2px 2px 2px;
+    
+}
+.contact-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.contact-more{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0
+}
+.contact-links{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+/*li:hover {
+    background-color: hsl(32, 48%, 63%);
+    box-shadow: 2px 2px 2px;
+}*/
 /* position */
 /* .position{
     position: relative;
